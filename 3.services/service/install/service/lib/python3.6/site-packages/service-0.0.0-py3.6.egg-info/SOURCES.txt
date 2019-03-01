@@ -1,0 +1,10 @@
+py_srv.py
+setup.cfg
+setup.py
+/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/PKG-INFO
+/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/SOURCES.txt
+/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/dependency_links.txt
+/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/entry_points.txt
+/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/requires.txt
+/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/top_level.txt
+/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/zip-safe

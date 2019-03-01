@@ -1,0 +1,44 @@
+Invoking command in '/home/lsm/Project/ros2_study/3.services/service': PYTHONPATH=/home/lsm/Project/ros2_study/3.services/service/install/service/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/3.services/service/build/service build --build-base /home/lsm/Project/ros2_study/3.services/service/build/service/build install --prefix /home/lsm/Project/ros2_study/3.services/service/install/service --record /home/lsm/Project/ros2_study/3.services/service/build/service/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/3.services/service/build/service/dist
+running egg_info
+creating /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info
+writing /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/PKG-INFO
+writing dependency_links to /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/dependency_links.txt
+writing entry points to /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/entry_points.txt
+writing requirements to /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/requires.txt
+writing top-level names to /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/top_level.txt
+writing manifest file '/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/SOURCES.txt'
+reading manifest file '/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/SOURCES.txt'
+writing manifest file '/home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lsm/Project/ros2_study/3.services/service/build/service/build
+creating /home/lsm/Project/ros2_study/3.services/service/build/service/build/lib
+copying py_srv.py -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/lib
+running install
+running install_lib
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/build/lib/py_srv.py -> /home/lsm/Project/ros2_study/3.services/service/install/service/lib/python3.6/site-packages
+byte-compiling /home/lsm/Project/ros2_study/3.services/service/install/service/lib/python3.6/site-packages/py_srv.py to py_srv.cpython-36.pyc
+running install_egg_info
+Copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info to /home/lsm/Project/ros2_study/3.services/service/install/service/lib/python3.6/site-packages/service-0.0.0-py3.6.egg-info
+running install_scripts
+Installing py_srv script to /home/lsm/Project/ros2_study/3.services/service/install/service/lib/service
+writing list of installed files to '/home/lsm/Project/ros2_study/3.services/service/build/service/install.log'
+running bdist_egg
+installing library code to /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg
+running install_lib
+creating /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64
+creating /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/build/lib/py_srv.py -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg
+byte-compiling /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/py_srv.py to py_srv.cpython-36.pyc
+creating /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/PKG-INFO -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/SOURCES.txt -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/dependency_links.txt -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/entry_points.txt -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/requires.txt -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/top_level.txt -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/service/build/service/service.egg-info/zip-safe -> /home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg/EGG-INFO
+creating /home/lsm/Project/ros2_study/3.services/service/build/service/dist
+creating '/home/lsm/Project/ros2_study/3.services/service/build/service/dist/service-0.0.0-py3.6.egg' and adding '/home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg' to it
+removing '/home/lsm/Project/ros2_study/3.services/service/build/service/build/bdist.linux-x86_64/egg' (and everything under it)
+Invoked command in '/home/lsm/Project/ros2_study/3.services/service' returned '0': PYTHONPATH=/home/lsm/Project/ros2_study/3.services/service/install/service/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/3.services/service/build/service build --build-base /home/lsm/Project/ros2_study/3.services/service/build/service/build install --prefix /home/lsm/Project/ros2_study/3.services/service/install/service --record /home/lsm/Project/ros2_study/3.services/service/build/service/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/3.services/service/build/service/dist

@@ -1,0 +1,10 @@
+py_client.py
+setup.cfg
+setup.py
+/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/PKG-INFO
+/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/SOURCES.txt
+/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/dependency_links.txt
+/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/entry_points.txt
+/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/requires.txt
+/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/top_level.txt
+/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/zip-safe

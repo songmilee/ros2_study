@@ -1,0 +1,11 @@
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/ament_index/resource_index/package_run_dependencies/client
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/ament_index/resource_index/parent_prefix_path/client
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/environment/ament_prefix_path.sh
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/environment/path.sh
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/local_setup.bash
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/local_setup.sh
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/local_setup.zsh
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/ament_index/resource_index/packages/client
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/cmake/clientConfig.cmake
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/cmake/clientConfig-version.cmake
+/home/lsm/Project/ros2_study/3.services/client/install/client/share/client/package.xml

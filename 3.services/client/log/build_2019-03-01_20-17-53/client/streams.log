@@ -1,0 +1,44 @@
+Invoking command in '/home/lsm/Project/ros2_study/3.services/client': PYTHONPATH=/home/lsm/Project/ros2_study/3.services/client/install/client/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/3.services/client/build/client build --build-base /home/lsm/Project/ros2_study/3.services/client/build/client/build install --prefix /home/lsm/Project/ros2_study/3.services/client/install/client --record /home/lsm/Project/ros2_study/3.services/client/build/client/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/3.services/client/build/client/dist
+running egg_info
+creating /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info
+writing /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/PKG-INFO
+writing dependency_links to /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/dependency_links.txt
+writing entry points to /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/entry_points.txt
+writing requirements to /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/requires.txt
+writing top-level names to /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/top_level.txt
+writing manifest file '/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/SOURCES.txt'
+reading manifest file '/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/SOURCES.txt'
+writing manifest file '/home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lsm/Project/ros2_study/3.services/client/build/client/build
+creating /home/lsm/Project/ros2_study/3.services/client/build/client/build/lib
+copying py_client.py -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/lib
+running install
+running install_lib
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/build/lib/py_client.py -> /home/lsm/Project/ros2_study/3.services/client/install/client/lib/python3.6/site-packages
+byte-compiling /home/lsm/Project/ros2_study/3.services/client/install/client/lib/python3.6/site-packages/py_client.py to py_client.cpython-36.pyc
+running install_egg_info
+Copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info to /home/lsm/Project/ros2_study/3.services/client/install/client/lib/python3.6/site-packages/client-0.0.0-py3.6.egg-info
+running install_scripts
+Installing py_client script to /home/lsm/Project/ros2_study/3.services/client/install/client/lib/client
+writing list of installed files to '/home/lsm/Project/ros2_study/3.services/client/build/client/install.log'
+running bdist_egg
+installing library code to /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg
+running install_lib
+creating /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64
+creating /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/build/lib/py_client.py -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg
+byte-compiling /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/py_client.py to py_client.cpython-36.pyc
+creating /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/PKG-INFO -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/SOURCES.txt -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/dependency_links.txt -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/entry_points.txt -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/requires.txt -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/top_level.txt -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/3.services/client/build/client/client.egg-info/zip-safe -> /home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg/EGG-INFO
+creating /home/lsm/Project/ros2_study/3.services/client/build/client/dist
+creating '/home/lsm/Project/ros2_study/3.services/client/build/client/dist/client-0.0.0-py3.6.egg' and adding '/home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg' to it
+removing '/home/lsm/Project/ros2_study/3.services/client/build/client/build/bdist.linux-x86_64/egg' (and everything under it)
+Invoked command in '/home/lsm/Project/ros2_study/3.services/client' returned '0': PYTHONPATH=/home/lsm/Project/ros2_study/3.services/client/install/client/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/3.services/client/build/client build --build-base /home/lsm/Project/ros2_study/3.services/client/build/client/build install --prefix /home/lsm/Project/ros2_study/3.services/client/install/client --record /home/lsm/Project/ros2_study/3.services/client/build/client/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/3.services/client/build/client/dist

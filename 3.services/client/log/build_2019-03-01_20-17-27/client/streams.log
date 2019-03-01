@@ -1,0 +1,6 @@
+Invoking command in '/home/lsm/Project/ros2_study/3.services/client/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/3.services/client/build/client -- -j4 -l4
+CMake Error: The source directory "/home/lsm/Project/ros2_study/3.services/client" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+Makefile:600: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1
+Invoked command in '/home/lsm/Project/ros2_study/3.services/client/build/client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/3.services/client/build/client -- -j4 -l4

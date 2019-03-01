@@ -1,0 +1,2 @@
+Invoking command in '/home/lsm/Project/ros2_study/3.services/client/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/3.services/client/build/client -- -j4 -l4
+Invoked command in '/home/lsm/Project/ros2_study/3.services/client/build/client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/3.services/client/build/client -- -j4 -l4
