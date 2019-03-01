@@ -1,0 +1,40 @@
+Invoking command in '/home/lsm/Project/ros2_study': PYTHONPATH=/home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/build/pub_py build --build-base /home/lsm/Project/ros2_study/build/pub_py/build install --prefix /home/lsm/Project/ros2_study/install/pub_py --record /home/lsm/Project/ros2_study/build/pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/build/pub_py/dist
+running egg_info
+writing /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/PKG-INFO
+writing dependency_links to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/dependency_links.txt
+writing entry points to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/entry_points.txt
+writing requirements to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/requires.txt
+writing top-level names to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/top_level.txt
+reading manifest file '/home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/SOURCES.txt'
+writing manifest file '/home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lsm/Project/ros2_study/build/pub_py/build/lib
+copying my_publisher.py -> /home/lsm/Project/ros2_study/build/pub_py/build/lib
+running install
+running install_lib
+copying /home/lsm/Project/ros2_study/build/pub_py/build/lib/my_publisher.py -> /home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages
+byte-compiling /home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages/my_publisher.py to my_publisher.cpython-36.pyc
+running install_egg_info
+removing '/home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages/pub_py-0.0.0-py3.6.egg-info' (and everything under it)
+Copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info to /home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages/pub_py-0.0.0-py3.6.egg-info
+running install_scripts
+Installing my_publisher script to /home/lsm/Project/ros2_study/install/pub_py/lib/pub_py
+writing list of installed files to '/home/lsm/Project/ros2_study/build/pub_py/install.log'
+running bdist_egg
+installing library code to /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg
+running install_lib
+creating /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg
+copying /home/lsm/Project/ros2_study/build/pub_py/build/lib/my_publisher.py -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg
+byte-compiling /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/my_publisher.py to my_publisher.cpython-36.pyc
+creating /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/PKG-INFO -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/SOURCES.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/dependency_links.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/entry_points.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/requires.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/top_level.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/zip-safe -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+creating '/home/lsm/Project/ros2_study/build/pub_py/dist/pub_py-0.0.0-py3.6.egg' and adding '/home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg' to it
+removing '/home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg' (and everything under it)
+Invoked command in '/home/lsm/Project/ros2_study' returned '0': PYTHONPATH=/home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/build/pub_py build --build-base /home/lsm/Project/ros2_study/build/pub_py/build install --prefix /home/lsm/Project/ros2_study/install/pub_py --record /home/lsm/Project/ros2_study/build/pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/build/pub_py/dist

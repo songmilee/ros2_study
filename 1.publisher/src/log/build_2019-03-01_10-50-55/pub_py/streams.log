@@ -1,0 +1,46 @@
+Invoking command in '/home/lsm/Project/ros2_study': PYTHONPATH=/home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/build/pub_py build --build-base /home/lsm/Project/ros2_study/build/pub_py/build install --prefix /home/lsm/Project/ros2_study/install/pub_py --record /home/lsm/Project/ros2_study/build/pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/build/pub_py/dist
+running egg_info
+creating /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info
+writing /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/PKG-INFO
+writing dependency_links to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/dependency_links.txt
+writing entry points to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/entry_points.txt
+writing requirements to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/requires.txt
+writing top-level names to /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/top_level.txt
+writing manifest file '/home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/SOURCES.txt'
+file sos_publisher.py (for module sos_publisher) not found
+reading manifest file '/home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/SOURCES.txt'
+writing manifest file '/home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/SOURCES.txt'
+running build
+running build_py
+file sos_publisher.py (for module sos_publisher) not found
+file sos_publisher.py (for module sos_publisher) not found
+running install
+running install_lib
+warning: install_lib: '/home/lsm/Project/ros2_study/build/pub_py/build/lib' does not exist -- no Python modules to install
+
+running install_egg_info
+Copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info to /home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages/pub_py-0.0.0-py3.6.egg-info
+running install_scripts
+Installing sos_publisher script to /home/lsm/Project/ros2_study/install/pub_py/lib/pub_py
+file sos_publisher.py (for module sos_publisher) not found
+writing list of installed files to '/home/lsm/Project/ros2_study/build/pub_py/install.log'
+running bdist_egg
+installing library code to /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg
+running install_lib
+warning: install_lib: '/home/lsm/Project/ros2_study/build/pub_py/build/lib' does not exist -- no Python modules to install
+
+creating /home/lsm/Project/ros2_study/build/pub_py/build
+creating /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64
+creating /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg
+creating /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/PKG-INFO -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/SOURCES.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/dependency_links.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/entry_points.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/requires.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/top_level.txt -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/lsm/Project/ros2_study/build/pub_py/pub_py.egg-info/zip-safe -> /home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+creating /home/lsm/Project/ros2_study/build/pub_py/dist
+creating '/home/lsm/Project/ros2_study/build/pub_py/dist/pub_py-0.0.0-py3.6.egg' and adding '/home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg' to it
+removing '/home/lsm/Project/ros2_study/build/pub_py/build/bdist.linux-x86_64/egg' (and everything under it)
+Invoked command in '/home/lsm/Project/ros2_study' returned '0': PYTHONPATH=/home/lsm/Project/ros2_study/install/pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/lsm/Project/ros2_study/build/pub_py build --build-base /home/lsm/Project/ros2_study/build/pub_py/build install --prefix /home/lsm/Project/ros2_study/install/pub_py --record /home/lsm/Project/ros2_study/build/pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/lsm/Project/ros2_study/build/pub_py/dist
