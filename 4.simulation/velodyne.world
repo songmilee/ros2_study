@@ -63,6 +63,13 @@
 
                     <ray>
 
+                        <noise>
+                            <!-- Use gaussian noise -->
+                            <type>gaussian</type>
+                            <mean>0.0</mean>
+                            <stddev>0.02</stddev>
+                        </noise>
+
                         <!-- The scan element contains the horizontal and vertical beams. We are leaving out the vertical beams for this tutorial. -->
                         <scan>
 
