@@ -1,0 +1,4 @@
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/contact': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact -- -j4 -l4
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/contact' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact -- -j4 -l4
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/contact': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact --target install
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/contact' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact --target install

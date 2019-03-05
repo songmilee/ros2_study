@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpublisher.copyright"
+  tests="1"
+  failures="1"
+  time="0.002"
+>
+  <testcase
+    name="publish_contact.cpp"
+    classname="cpublisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* publish_contact.cpp</system-out>
+</testsuite>

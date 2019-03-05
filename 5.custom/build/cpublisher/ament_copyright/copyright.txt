@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_copyright --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml
+
+publish_contact.cpp: could not find copyright notice
+1 errors, checked 1 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml'

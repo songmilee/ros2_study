@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpublisher.cppcheck"
+  tests="0"
+  failures="0"
+  time="0.017"
+>
+  <system-out>Checked files:</system-out>
+</testsuite>

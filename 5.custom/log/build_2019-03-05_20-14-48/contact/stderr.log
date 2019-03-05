@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/crystal/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:89 (message):
+  rosidl_generate_interfaces() the passed file 'srv/addTwoFloats.srv' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/lsm/Project/ros2_study/5.custom/contact'
+Call Stack (most recent call first):
+  CMakeLists.txt:32 (rosidl_generate_interfaces)
+
+

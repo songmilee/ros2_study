@@ -1,0 +1,13 @@
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found contact: 0.0.0 (/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake)
+-- Found ament_lint_auto: 0.6.3 (/opt/ros/crystal/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring incomplete, errors occurred!
+See also "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/CMakeFiles/CMakeOutput.log".
+Makefile:600: recipe for target 'cmake_check_build_system' failed

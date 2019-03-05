@@ -1,0 +1,42 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.em
+
+#ifndef __contact__msg__Contact__idl__
+#define __contact__msg__Contact__idl__
+
+
+module contact
+{
+
+module msg
+{
+
+module dds_
+{
+
+  const boolean Contact__FEMALE =
+    TRUE;
+  const boolean Contact__MALE =
+    FALSE;
+
+
+
+struct Contact_
+{
+
+  string first_name_;
+  string last_name_;
+  boolean gender_;
+  octet age_;
+  string address_;
+
+};  // struct Contact_
+
+#pragma keylist Contact_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module contact
+
+#endif  // __contact__msg__Contact__idl__

@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.em
+
+#ifndef __contact__srv__AddTwoFloats_Response__idl__
+#define __contact__srv__AddTwoFloats_Response__idl__
+
+
+module contact
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct AddTwoFloats_Response_
+{
+
+  double sum_;
+
+};  // struct AddTwoFloats_Response_
+
+#pragma keylist AddTwoFloats_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module contact
+
+#endif  // __contact__srv__AddTwoFloats_Response__idl__

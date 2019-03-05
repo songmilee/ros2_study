@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from contact/srv/AddTwoFloats.srv
+
+
+module contact {
+  module srv {
+    struct AddTwoFloats_Request {
+      double a;
+
+      double b;
+    };
+    struct AddTwoFloats_Response {
+      double sum;
+    };
+  };
+};

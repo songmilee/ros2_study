@@ -1,0 +1,14 @@
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:37:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+   rclcpp::[01;31m[Ktimer[m[K::TimerBase::SharedPtr timer_;
+           [01;31m[K^~~~~[m[K
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:[m[K In constructor ‘[01m[KContactPublisher::ContactPublisher()[m[K’:
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope
+     [01;31m[Ktimer_[m[K = this->create_wall_timer(1s, publish_msg);
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:32:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktimer_t[m[K’
+     [01;36m[Ktimer_[m[K = this->create_wall_timer(1s, publish_msg);
+     [01;36m[K^~~~~~[m[K
+     [32m[Ktimer_t[m[K
+make[2]: *** [CMakeFiles/cpublisher.dir/publish_contact.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpublisher.dir/all] Error 2
+make: *** [all] Error 2

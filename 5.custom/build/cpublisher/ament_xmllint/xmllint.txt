@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_xmllint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml
+
+File 'package.xml' is valid
+
+No errors
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml'

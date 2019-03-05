@@ -1,0 +1,6 @@
+msg/Contact.idl
+msg/Contact.msg
+srv/AddTwoFloats.idl
+srv/AddTwoFloats.srv
+srv/AddTwoFloats_Request.msg
+srv/AddTwoFloats_Response.msg

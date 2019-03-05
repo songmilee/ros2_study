@@ -1,0 +1,2 @@
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/contact': CMAKE_PREFIX_PATH=/opt/ros/crystal /usr/bin/cmake /home/lsm/Project/ros2_study/5.custom/contact -DCMAKE_INSTALL_PREFIX=/home/lsm/Project/ros2_study/5.custom/install/contact
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/contact' returned '1': CMAKE_PREFIX_PATH=/opt/ros/crystal /usr/bin/cmake /home/lsm/Project/ros2_study/5.custom/contact -DCMAKE_INSTALL_PREFIX=/home/lsm/Project/ros2_study/5.custom/install/contact

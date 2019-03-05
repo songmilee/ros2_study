@@ -1,0 +1,11 @@
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found contact: 0.0.0 (/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake)
+CMake Error at /opt/ros/crystal/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:33 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:22 (ament_target_dependencies)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/CMakeFiles/CMakeOutput.log".

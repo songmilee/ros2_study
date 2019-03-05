@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.em
+
+#ifndef __contact__srv__Sample_AddTwoFloats_Request__idl__
+#define __contact__srv__Sample_AddTwoFloats_Request__idl__
+
+#include "contact/srv/dds_opensplice/AddTwoFloats_Request_.idl"
+
+module contact
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct Sample_AddTwoFloats_Request_
+{
+
+  unsigned long long client_guid_0_;
+  unsigned long long client_guid_1_;
+  long long sequence_number_;
+  contact::srv::dds_::AddTwoFloats_Request_ request_;
+
+};  // struct Sample_AddTwoFloats_Request_
+
+#pragma keylist Sample_AddTwoFloats_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module contact
+
+#endif  // __contact__srv__Sample_AddTwoFloats_Request__idl__

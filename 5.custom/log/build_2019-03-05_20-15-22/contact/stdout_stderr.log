@@ -1,0 +1,321 @@
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found builtin_interfaces: 0.6.2 (/opt/ros/crystal/share/builtin_interfaces/cmake)
+-- Found rosidl_adapter: 0.6.3 (/opt/ros/crystal/share/rosidl_adapter/cmake)
+-- Found rosidl_default_generators: 0.6.0 (/opt/ros/crystal/share/rosidl_default_generators/cmake)
+-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.7") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp
+-- Found rmw_implementation_cmake: 0.6.1 (/opt/ros/crystal/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.7", minimum required is "3.5") 
+-- Found python_cmake_module: 0.6.2 (/opt/ros/crystal/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.7", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lsm/Project/ros2_study/5.custom/build/contact
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target contact__cpp[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target contact__cpp
+[  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  4%] [34m[1mGenerating DDS interfaces[0m
+[  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  6%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_fastrtps_cpp[0m
+[  8%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/contact/msg/dds_fastrtps/contact__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target contact__rosidl_generator_c[0m
+[  9%] [32mBuilding C object CMakeFiles/contact__rosidl_generator_c.dir/rosidl_generator_c/contact/msg/contact__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/contact__rosidl_generator_c.dir/rosidl_generator_c/contact/srv/add_two_floats__request__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/contact__rosidl_generator_c.dir/rosidl_generator_c/contact/srv/add_two_floats__response__functions.c.o[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_introspection_cpp[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/contact/msg/contact__type_support.cpp.o[0m
+[ 13%] [32m[1mLinking C shared library libcontact__rosidl_generator_c.so[0m
+[ 13%] Built target contact__rosidl_generator_c
+[ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/contact/srv/dds_fastrtps/add_two_floats__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/contact/srv/add_two_floats__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/contact/srv/add_two_floats__request__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/contact/srv/dds_fastrtps/add_two_floats__request__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_cpp[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/contact/msg/contact__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/contact/srv/add_two_floats__response__type_support.cpp.o[0m
+[ 22%] [32m[1mLinking CXX shared library libcontact__rosidl_typesupport_introspection_cpp.so[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/contact/srv/add_two_floats__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/contact/srv/dds_fastrtps/add_two_floats__response__type_support.cpp.o[0m
+[ 25%] Built target contact__rosidl_typesupport_introspection_cpp
+[ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_opensplice_cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/contact/srv/add_two_floats__request__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/msg/dds_opensplice/contact__type_support.cpp.o[0m
+[ 29%] [32m[1mLinking CXX shared library libcontact__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 29%] Built target contact__rosidl_typesupport_fastrtps_cpp
+[ 31%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/contact/srv/add_two_floats__response__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/add_two_floats__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_c[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_c.dir/rosidl_typesupport_c/contact/msg/contact__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_c.dir/rosidl_typesupport_c/contact/srv/add_two_floats__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_c.dir/rosidl_typesupport_c/contact/srv/add_two_floats__request__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/add_two_floats__request__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libcontact__rosidl_typesupport_cpp.so[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_c.dir/rosidl_typesupport_c/contact/srv/add_two_floats__response__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libcontact__rosidl_typesupport_c.so[0m
+[ 40%] Built target contact__rosidl_typesupport_cpp
+[ 41%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/add_two_floats__response__type_support.cpp.o[0m
+[ 41%] Built target contact__rosidl_typesupport_c
+[ 42%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/msg/dds_opensplice/Contact_.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/msg/dds_opensplice/Contact_Dcps.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/msg/dds_opensplice/Contact_Dcps_impl.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/msg/dds_opensplice/Contact_SplDcps.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_Dcps.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_Dcps_impl.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_SplDcps.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_Dcps.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_Dcps_impl.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_SplDcps.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Request_.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Request_Dcps.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Request_Dcps_impl.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Request_SplDcps.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Response_.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Response_Dcps.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Response_Dcps_impl.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/contact/srv/dds_opensplice/AddTwoFloats_Response_SplDcps.cpp.o[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_introspection_c[0m
+[ 66%] [32mBuilding C object CMakeFiles/contact__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/contact/msg/contact__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/contact__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/contact/srv/add_two_floats__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/contact__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/contact/srv/add_two_floats__request__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/contact__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/contact/srv/add_two_floats__response__type_support.c.o[0m
+[ 71%] [32m[1mLinking C shared library libcontact__rosidl_typesupport_introspection_c.so[0m
+[ 72%] [32m[1mLinking CXX shared library libcontact__rosidl_typesupport_opensplice_cpp.so[0m
+[ 72%] Built target contact__rosidl_typesupport_introspection_c
+[ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 73%] Built target contact__rosidl_typesupport_opensplice_cpp
+[ 74%] [34m[1mGenerating C type support for PrismTech OpenSplice[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_opensplice_c[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/contact/msg/dds_opensplice_c/contact__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/contact/srv/dds_opensplice_c/add_two_floats__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/contact/srv/dds_opensplice_c/add_two_floats__request__type_support_c.cpp.o[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_fastrtps_c[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/contact/msg/dds_fastrtps_c/contact__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/contact/srv/dds_fastrtps_c/add_two_floats__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/contact/srv/dds_fastrtps_c/add_two_floats__request__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/contact/srv/dds_opensplice_c/add_two_floats__response__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/contact__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/contact/srv/dds_fastrtps_c/add_two_floats__response__type_support_c.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libcontact__rosidl_typesupport_fastrtps_c.so[0m
+[ 86%] [32m[1mLinking CXX shared library libcontact__rosidl_typesupport_opensplice_c.so[0m
+[ 86%] Built target contact__rosidl_typesupport_fastrtps_c
+[ 87%] Built target contact__rosidl_typesupport_opensplice_c
+[35m[1mScanning dependencies of target contact[0m
+[ 87%] Built target contact
+[35m[1mScanning dependencies of target contact__py[0m
+[ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 88%] Built target contact__py
+[35m[1mScanning dependencies of target contact__python[0m
+[ 89%] [32mBuilding C object CMakeFiles/contact__python.dir/rosidl_generator_py/contact/srv/_add_two_floats__response_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/contact__python.dir/rosidl_generator_py/contact/srv/_add_two_floats__request_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/contact__python.dir/rosidl_generator_py/contact/msg/_contact_s.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/contact/libcontact__python.so[0m
+[ 93%] Built target contact__python
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_opensplice_c__pyext[0m
+[35m[1mScanning dependencies of target contact__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 94%] [32mBuilding C object CMakeFiles/contact__rosidl_typesupport_opensplice_c__pyext.dir/rosidl_generator_py/contact/_contact_s.ep.rosidl_typesupport_opensplice_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/contact__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/contact/_contact_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/contact__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/contact/_contact_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/contact/contact_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/contact/contact_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/contact/contact_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] Built target contact__rosidl_typesupport_opensplice_c__pyext
+[100%] Built target contact__rosidl_typesupport_c__pyext
+[100%] Built target contact__rosidl_typesupport_fastrtps_c__pyext
+[  1%] Built target contact__cpp
+[  8%] Built target contact__rosidl_typesupport_introspection_cpp
+[ 14%] Built target contact__rosidl_typesupport_fastrtps_cpp
+[ 20%] Built target contact__rosidl_generator_c
+[ 27%] Built target contact__rosidl_typesupport_fastrtps_c
+[ 58%] Built target contact__rosidl_typesupport_opensplice_cpp
+[ 66%] Built target contact__rosidl_typesupport_opensplice_c
+[ 73%] Built target contact__rosidl_typesupport_cpp
+[ 80%] Built target contact__rosidl_typesupport_c
+[ 87%] Built target contact__rosidl_typesupport_introspection_c
+[ 87%] Built target contact
+[ 88%] Built target contact__py
+[ 93%] Built target contact__python
+[ 95%] Built target contact__rosidl_typesupport_opensplice_c__pyext
+[ 97%] Built target contact__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target contact__rosidl_typesupport_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/rosidl_interfaces/contact
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__struct.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__traits.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__struct.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__traits.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__struct.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__traits.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__struct.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__traits.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__functions.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__struct.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__type_support.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__functions.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__struct.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__type_support.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__functions.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__struct.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__type_support.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/library_path.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_generator_c.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_generator_c.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_c.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_c.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_introspection_cpp.so" to ""
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_fastrtps_c
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_fastrtps_c
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_fastrtps
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_fastrtps
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_opensplice_c__visibility_control.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice_c
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_opensplice_c.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice_c
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_opensplice_c.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_opensplice_c.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/msg/dds_opensplice/Contact_.idl
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_.idl
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_.idl
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/AddTwoFloats_Request_.idl
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/AddTwoFloats_Response_.idl
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_SplDcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_Dcps_impl.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_Dcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/ccpp_Contact_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h
+-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_SplDcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_Sample_AddTwoFloats_Request_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_Dcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_Sample_AddTwoFloats_Response_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_AddTwoFloats_Request_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_Dcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_AddTwoFloats_Response_.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_SplDcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_Dcps_impl.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_Dcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_Dcps_impl.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_Dcps_impl.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_SplDcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_Dcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_Dcps_impl.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_SplDcps.h
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_opensplice_cpp.hpp
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_opensplice_cpp.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_opensplice_cpp.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/pythonpath.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/__init__.py
+Compiling '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/__init__.py'...
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/msg/__init__.py
+Compiling '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/msg/__init__.py'...
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/msg/_contact.py
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/msg/__init__.py
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/_add_two_floats.py
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/_add_two_floats__request.py
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/_add_two_floats__response.py
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/__init__.py
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__python.so
+-- Set runtime path of "/home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__python.so" to ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/msg/Contact.idl
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats.idl
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/msg/Contact.msg
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats.srv
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats_Request.msg
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats_Response.msg
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/package_run_dependencies/contact
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/parent_prefix_path/contact
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/ament_prefix_path.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/path.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/local_setup.bash
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/local_setup.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/local_setup.zsh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/packages/contact
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/contactConfig.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/contactConfig-version.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/package.xml

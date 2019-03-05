@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.001133] (contact) JobQueued: {'identifier': 'contact', 'dependencies': OrderedDict()}
+[0.002340] (cpublisher) JobQueued: {'identifier': 'cpublisher', 'dependencies': OrderedDict([('contact', '/home/lsm/Project/ros2_study/5.custom/install/contact')])}
+[0.002642] (contact) JobStarted: {'identifier': 'contact'}
+[0.015767] (contact) JobProgress: {'identifier': 'contact', 'progress': 'cmake'}
+[0.016906] (contact) JobProgress: {'identifier': 'contact', 'progress': 'build'}
+[0.018407] (contact) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lsm/Project/ros2_study/5.custom/build/contact', '--', '-j4', '-l4'], 'cwd': '/home/lsm/Project/ros2_study/5.custom/build/contact', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lsm'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib:/opt/ros/crystal/opt/yaml_cpp_vendor/lib:/opt/ros/crystal/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/crystal/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/lsm/Project/ros2_study/5.custom/cpublisher'), ('OSPL_URI', 'file:///opt/ros/crystal/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/lsm'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install:/opt/ros/crystal'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'crystal'), ('LOGNAME', 'lsm'), ('GTK_IM_MODULE', 'fcitx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'lsm'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/crystal/bin:/home/lsm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/lsm-laptop:@/tmp/.ICE-unix/1462,unix/lsm-laptop:/tmp/.ICE-unix/1462'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7d6770a_559a_4f8d_92c8_02300f159ef3'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/home/lsm/Project/ros2_study/5.custom/install/contact:/opt/ros/crystal'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'fcitx'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/lsm/Project/ros2_study/5.custom/build/contact'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages:/opt/ros/crystal/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/home/lsm/Project/ros2_study/5.custom/install/contact:/opt/ros/crystal')]), 'shell': False}
+[0.089721] (contact) StdoutLine: {'line': b'[  1%] Built target contact__cpp\n'}
+[0.090454] (contact) StdoutLine: {'line': b'[  6%] Built target contact__rosidl_generator_c\n'}
+[0.099441] (-) TimerEvent: {}
+[0.132286] (contact) StdoutLine: {'line': b'[ 13%] Built target contact__rosidl_typesupport_introspection_cpp\n'}
+[0.140871] (contact) StdoutLine: {'line': b'[ 20%] Built target contact__rosidl_typesupport_fastrtps_cpp\n'}
+[0.142054] (contact) StdoutLine: {'line': b'[ 27%] Built target contact__rosidl_typesupport_cpp\n'}
+[0.180800] (contact) StdoutLine: {'line': b'[ 35%] Built target contact__rosidl_typesupport_introspection_c\n'}
+[0.185691] (contact) StdoutLine: {'line': b'[ 41%] Built target contact__rosidl_typesupport_c\n'}
+[0.189651] (contact) StdoutLine: {'line': b'[ 48%] Built target contact__rosidl_typesupport_fastrtps_c\n'}
+[0.199517] (-) TimerEvent: {}
+[0.225743] (contact) StdoutLine: {'line': b'[ 79%] Built target contact__rosidl_typesupport_opensplice_cpp\n'}
+[0.273638] (contact) StdoutLine: {'line': b'[ 87%] Built target contact__rosidl_typesupport_opensplice_c\n'}
+[0.296953] (contact) StdoutLine: {'line': b'[ 87%] Built target contact\n'}
+[0.299674] (-) TimerEvent: {}
+[0.320632] (contact) StdoutLine: {'line': b'[ 88%] Built target contact__py\n'}
+[0.354245] (contact) StdoutLine: {'line': b'[ 93%] Built target contact__python\n'}
+[0.392648] (contact) StdoutLine: {'line': b'[ 95%] Built target contact__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.393147] (contact) StdoutLine: {'line': b'[ 97%] Built target contact__rosidl_typesupport_c__pyext\n'}
+[0.397832] (contact) StdoutLine: {'line': b'[100%] Built target contact__rosidl_typesupport_opensplice_c__pyext\n'}
+[0.399968] (-) TimerEvent: {}
+[0.412006] (contact) CommandEnded: {'returncode': 0}
+[0.500055] (-) TimerEvent: {}
+[0.600563] (-) TimerEvent: {}
+[0.612873] (contact) JobProgress: {'identifier': 'contact', 'progress': 'install'}
+[0.614635] (contact) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lsm/Project/ros2_study/5.custom/build/contact', '--target', 'install'], 'cwd': '/home/lsm/Project/ros2_study/5.custom/build/contact', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lsm'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib:/opt/ros/crystal/opt/yaml_cpp_vendor/lib:/opt/ros/crystal/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/crystal/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/lsm/Project/ros2_study/5.custom/cpublisher'), ('OSPL_URI', 'file:///opt/ros/crystal/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/lsm'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install:/opt/ros/crystal'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'crystal'), ('LOGNAME', 'lsm'), ('GTK_IM_MODULE', 'fcitx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'lsm'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/crystal/bin:/home/lsm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/lsm-laptop:@/tmp/.ICE-unix/1462,unix/lsm-laptop:/tmp/.ICE-unix/1462'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7d6770a_559a_4f8d_92c8_02300f159ef3'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/home/lsm/Project/ros2_study/5.custom/install/contact:/opt/ros/crystal'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'fcitx'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/lsm/Project/ros2_study/5.custom/build/contact'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages:/opt/ros/crystal/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/home/lsm/Project/ros2_study/5.custom/install/contact:/opt/ros/crystal')]), 'shell': False}
+[0.681072] (contact) StdoutLine: {'line': b'[  1%] Built target contact__cpp\n'}
+[0.700715] (-) TimerEvent: {}
+[0.708456] (contact) StdoutLine: {'line': b'[  8%] Built target contact__rosidl_typesupport_introspection_cpp\n'}
+[0.741553] (contact) StdoutLine: {'line': b'[ 14%] Built target contact__rosidl_typesupport_fastrtps_cpp\n'}
+[0.767165] (contact) StdoutLine: {'line': b'[ 20%] Built target contact__rosidl_generator_c\n'}
+[0.800417] (contact) StdoutLine: {'line': b'[ 27%] Built target contact__rosidl_typesupport_fastrtps_c\n'}
+[0.800736] (-) TimerEvent: {}
+[0.897231] (contact) StdoutLine: {'line': b'[ 58%] Built target contact__rosidl_typesupport_opensplice_cpp\n'}
+[0.900884] (-) TimerEvent: {}
+[0.944831] (contact) StdoutLine: {'line': b'[ 66%] Built target contact__rosidl_typesupport_opensplice_c\n'}
+[0.971394] (contact) StdoutLine: {'line': b'[ 73%] Built target contact__rosidl_typesupport_cpp\n'}
+[0.998014] (contact) StdoutLine: {'line': b'[ 80%] Built target contact__rosidl_typesupport_c\n'}
+[1.000979] (-) TimerEvent: {}
+[1.025157] (contact) StdoutLine: {'line': b'[ 87%] Built target contact__rosidl_typesupport_introspection_c\n'}
+[1.048686] (contact) StdoutLine: {'line': b'[ 87%] Built target contact\n'}
+[1.073001] (contact) StdoutLine: {'line': b'[ 88%] Built target contact__py\n'}
+[1.101191] (-) TimerEvent: {}
+[1.105425] (contact) StdoutLine: {'line': b'[ 93%] Built target contact__python\n'}
+[1.135858] (contact) StdoutLine: {'line': b'[ 95%] Built target contact__rosidl_typesupport_opensplice_c__pyext\n'}
+[1.166936] (contact) StdoutLine: {'line': b'[ 97%] Built target contact__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.197260] (contact) StdoutLine: {'line': b'[100%] Built target contact__rosidl_typesupport_c__pyext\n'}
+[1.201343] (-) TimerEvent: {}
+[1.222345] (contact) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[1.233752] (contact) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.234669] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/rosidl_interfaces/contact\n'}
+[1.235123] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact.hpp\n'}
+[1.235468] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__struct.hpp\n'}
+[1.235764] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__traits.hpp\n'}
+[1.236117] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats.hpp\n'}
+[1.236403] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__struct.hpp\n'}
+[1.236735] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__traits.hpp\n'}
+[1.237156] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request.hpp\n'}
+[1.237492] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__struct.hpp\n'}
+[1.237908] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__traits.hpp\n'}
+[1.238265] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response.hpp\n'}
+[1.238555] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__struct.hpp\n'}
+[1.239119] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__traits.hpp\n'}
+[1.239454] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact.h\n'}
+[1.239741] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__functions.h\n'}
+[1.240345] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__struct.h\n'}
+[1.240711] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__type_support.h\n'}
+[1.241169] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.241579] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats.h\n'}
+[1.241907] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request.h\n'}
+[1.242355] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__functions.h\n'}
+[1.243058] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__struct.h\n'}
+[1.244859] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__type_support.h\n'}
+[1.245338] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response.h\n'}
+[1.245643] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__functions.h\n'}
+[1.245914] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__struct.h\n'}
+[1.246179] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__type_support.h\n'}
+[1.246456] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/library_path.sh\n'}
+[1.246742] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_generator_c.so\n'}
+[1.247006] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_c.so\n'}
+[1.247267] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_cpp.so\n'}
+[1.247543] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_introspection_c.h\n'}
+[1.247943] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.248286] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_introspection_c.h\n'}
+[1.248636] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_introspection_c.h\n'}
+[1.248937] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_introspection_c.h\n'}
+[1.249226] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_introspection_c.so\n'}
+[1.249499] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.249768] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.250040] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.250337] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.250642] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_introspection_cpp.so\n'}
+[1.250948] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact\n'}
+[1.251245] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg\n'}
+[1.251554] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.251854] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_fastrtps_c.h\n'}
+[1.252166] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_fastrtps_c\n'}
+[1.252480] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv\n'}
+[1.252797] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_fastrtps_c.h\n'}
+[1.253094] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_fastrtps_c.h\n'}
+[1.253418] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_fastrtps_c.h\n'}
+[1.253717] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_fastrtps_c\n'}
+[1.254037] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_fastrtps_c.so\n'}
+[1.254365] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact\n'}
+[1.254660] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg\n'}
+[1.254977] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_fastrtps\n'}
+[1.255277] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.255557] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.255863] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv\n'}
+[1.256178] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_fastrtps\n'}
+[1.256473] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.256789] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.257097] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.257393] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.257952] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact\n'}
+[1.258252] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg\n'}
+[1.258549] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_opensplice_c.h\n'}
+[1.258844] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_opensplice_c__visibility_control.h\n'}
+[1.259169] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice_c\n'}
+[1.259484] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv\n'}
+[1.259811] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_opensplice_c.h\n'}
+[1.260124] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_opensplice_c.h\n'}
+[1.260412] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_opensplice_c.h\n'}
+[1.260716] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice_c\n'}
+[1.261004] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_opensplice_c.so\n'}
+[1.261276] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/msg/dds_opensplice/Contact_.idl\n'}
+[1.261570] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_.idl\n'}
+[1.261858] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_.idl\n'}
+[1.262144] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/AddTwoFloats_Request_.idl\n'}
+[1.262450] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/dds_opensplice/AddTwoFloats_Response_.idl\n'}
+[1.262748] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact\n'}
+[1.263052] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg\n'}
+[1.263376] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice\n'}
+[1.263699] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_SplDcps.h\n'}
+[1.264033] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_.h\n'}
+[1.264360] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_Dcps_impl.h\n'}
+[1.264673] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/Contact_Dcps.h\n'}
+[1.264978] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/dds_opensplice/ccpp_Contact_.h\n'}
+[1.265276] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/contact__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[1.265567] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h\n'}
+[1.265867] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv\n'}
+[1.266195] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice\n'}
+[1.266506] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_.h\n'}
+[1.266857] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_.h\n'}
+[1.267188] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_SplDcps.h\n'}
+[1.267509] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_.h\n'}
+[1.267821] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_Sample_AddTwoFloats_Request_.h\n'}
+[1.268150] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_Dcps.h\n'}
+[1.268463] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_Sample_AddTwoFloats_Response_.h\n'}
+[1.268819] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_AddTwoFloats_Request_.h\n'}
+[1.269135] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_.h\n'}
+[1.269474] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_Dcps.h\n'}
+[1.269782] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/ccpp_AddTwoFloats_Response_.h\n'}
+[1.270093] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_SplDcps.h\n'}
+[1.270418] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_Dcps_impl.h\n'}
+[1.270750] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Request_Dcps.h\n'}
+[1.271070] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_Dcps_impl.h\n'}
+[1.271397] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_Dcps_impl.h\n'}
+[1.271729] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_SplDcps.h\n'}
+[1.272113] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Request_Dcps.h\n'}
+[1.272433] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/Sample_AddTwoFloats_Response_Dcps_impl.h\n'}
+[1.272751] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/dds_opensplice/AddTwoFloats_Response_SplDcps.h\n'}
+[1.273078] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__request__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[1.273409] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[1.273715] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/include/contact/srv/add_two_floats__response__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[1.274029] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__rosidl_typesupport_opensplice_cpp.so\n'}
+[1.274372] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/pythonpath.sh\n'}
+[1.274680] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/__init__.py\n'}
+[1.301419] (-) TimerEvent: {}
+[1.323730] (contact) StdoutLine: {'line': b'-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/msg/__init__.py\n'}
+[1.396959] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/msg/_contact.py\n'}
+[1.397425] (contact) StdoutLine: {'line': b'-- Installing: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/msg/__init__.py\n'}
+[1.397778] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/_add_two_floats.py\n'}
+[1.398075] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/_add_two_floats__request.py\n'}
+[1.398411] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/_add_two_floats__response.py\n'}
+[1.398714] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/srv/__init__.py\n'}
+[1.403326] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[1.403673] (-) TimerEvent: {}
+[1.403867] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[1.404179] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages/contact/contact_s__rosidl_typesupport_opensplice_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[1.404404] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/lib/libcontact__python.so\n'}
+[1.404678] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/msg/Contact.idl\n'}
+[1.405078] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats.idl\n'}
+[1.407552] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/msg/Contact.msg\n'}
+[1.408385] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats.srv\n'}
+[1.408934] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats_Request.msg\n'}
+[1.409918] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/srv/AddTwoFloats_Response.msg\n'}
+[1.410616] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/package_run_dependencies/contact\n'}
+[1.411151] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/parent_prefix_path/contact\n'}
+[1.411922] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/ament_prefix_path.sh\n'}
+[1.412737] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/environment/path.sh\n'}
+[1.413793] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/local_setup.bash\n'}
+[1.414198] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/local_setup.sh\n'}
+[1.415319] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/local_setup.zsh\n'}
+[1.417223] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/ament_index/resource_index/packages/contact\n'}
+[1.417712] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/rosidl_cmake-extras.cmake\n'}
+[1.418271] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.418948] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.419399] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.419975] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/contactConfig.cmake\n'}
+[1.422334] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake/contactConfig-version.cmake\n'}
+[1.424053] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/package.xml\n'}
+[1.427051] (contact) CommandEnded: {'returncode': 0}
+[1.441194] (contact) JobEnded: {'identifier': 'contact', 'rc': 0}
+[1.441974] (cpublisher) JobStarted: {'identifier': 'cpublisher'}
+[1.450344] (cpublisher) JobProgress: {'identifier': 'cpublisher', 'progress': 'cmake'}
+[1.451566] (cpublisher) JobProgress: {'identifier': 'cpublisher', 'progress': 'build'}
+[1.453637] (cpublisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lsm/Project/ros2_study/5.custom/build/cpublisher', '--', '-j4', '-l4'], 'cwd': '/home/lsm/Project/ros2_study/5.custom/build/cpublisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lsm'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib:/opt/ros/crystal/opt/yaml_cpp_vendor/lib:/opt/ros/crystal/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/crystal/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/lsm/Project/ros2_study/5.custom/cpublisher'), ('OSPL_URI', 'file:///opt/ros/crystal/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/lsm'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install:/opt/ros/crystal'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'crystal'), ('LOGNAME', 'lsm'), ('GTK_IM_MODULE', 'fcitx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'lsm'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/crystal/bin:/home/lsm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/lsm-laptop:@/tmp/.ICE-unix/1462,unix/lsm-laptop:/tmp/.ICE-unix/1462'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7d6770a_559a_4f8d_92c8_02300f159ef3'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/home/lsm/Project/ros2_study/5.custom/install/contact:/opt/ros/crystal'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'fcitx'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/lsm/Project/ros2_study/5.custom/build/cpublisher'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages:/opt/ros/crystal/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/contact:/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/opt/ros/crystal')]), 'shell': False}
+[1.490179] (cpublisher) StdoutLine: {'line': b'-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)\n'}
+[1.503926] (-) TimerEvent: {}
+[1.523982] (cpublisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.604035] (-) TimerEvent: {}
+[1.704502] (-) TimerEvent: {}
+[1.800638] (cpublisher) StdoutLine: {'line': b'-- Found rclcpp: 0.6.3 (/opt/ros/crystal/share/rclcpp/cmake)\n'}
+[1.804600] (-) TimerEvent: {}
+[1.819167] (cpublisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.6.3 (/opt/ros/crystal/share/rosidl_adapter/cmake)\n'}
+[1.868379] (cpublisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.6.1 (/opt/ros/crystal/share/rmw_implementation_cmake/cmake)\n'}
+[1.904853] (-) TimerEvent: {}
+[1.911475] (cpublisher) StdoutLine: {'line': b'-- Found contact: 0.0.0 (/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake)\n'}
+[2.004961] (-) TimerEvent: {}
+[2.007728] (cpublisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.033645] (cpublisher) StdoutLine: {'line': b'-- Generating done\n'}
+[2.042504] (cpublisher) StdoutLine: {'line': b'-- Build files have been written to: /home/lsm/Project/ros2_study/5.custom/build/cpublisher\n'}
+[2.072565] (cpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpublisher\x1b[0m\n'}
+[2.101976] (cpublisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpublisher.dir/publish_contact.cpp.o\x1b[0m\n'}
+[2.105088] (-) TimerEvent: {}
+[2.205551] (-) TimerEvent: {}
+[2.306139] (-) TimerEvent: {}
+[2.406673] (-) TimerEvent: {}
+[2.507187] (-) TimerEvent: {}
+[2.607838] (-) TimerEvent: {}
+[2.708454] (-) TimerEvent: {}
+[2.809175] (-) TimerEvent: {}
+[2.909772] (-) TimerEvent: {}
+[3.010396] (-) TimerEvent: {}
+[3.111111] (-) TimerEvent: {}
+[3.211762] (-) TimerEvent: {}
+[3.297483] (cpublisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:35:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.298045] (cpublisher) StderrLine: {'line': b'   rclcpp::\x1b[01;31m\x1b[Ktimer\x1b[m\x1b[K::TimerBase::SharedPtr timer_;\n'}
+[3.298413] (cpublisher) StderrLine: {'line': b'           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.311886] (-) TimerEvent: {}
+[3.321100] (cpublisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KContactPublisher::ContactPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.321588] (cpublisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:30:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.321965] (cpublisher) StderrLine: {'line': b'     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(1s, publish_msg);\n'}
+[3.322487] (cpublisher) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.322821] (cpublisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:30:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.323145] (cpublisher) StderrLine: {'line': b'     \x1b[01;36m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(1s, publish_msg);\n'}
+[3.323459] (cpublisher) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.323766] (cpublisher) StderrLine: {'line': b'     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[3.412079] (-) TimerEvent: {}
+[3.512772] (-) TimerEvent: {}
+[3.613455] (-) TimerEvent: {}
+[3.714183] (-) TimerEvent: {}
+[3.733392] (cpublisher) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpublisher.dir/publish_contact.cpp.o] Error 1\n'}
+[3.733967] (cpublisher) StdoutLine: {'line': b"CMakeFiles/cpublisher.dir/build.make:62: recipe for target 'CMakeFiles/cpublisher.dir/publish_contact.cpp.o' failed\n"}
+[3.734286] (cpublisher) StdoutLine: {'line': b"CMakeFiles/Makefile2:547: recipe for target 'CMakeFiles/cpublisher.dir/all' failed\n"}
+[3.734568] (cpublisher) StderrLine: {'line': b'make[1]: *** [CMakeFiles/cpublisher.dir/all] Error 2\n'}
+[3.734828] (cpublisher) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[3.735096] (cpublisher) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[3.736428] (cpublisher) CommandEnded: {'returncode': 2}
+[3.737284] (cpublisher) JobEnded: {'identifier': 'cpublisher', 'rc': 2}
+[3.747791] (-) EventReactorShutdown: {}

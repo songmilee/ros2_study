@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpublisher.xmllint"
+  tests="1"
+  failures="0"
+  time="0.439"
+>
+  <testcase
+    name="package.xml"
+    classname="cpublisher.xmllint"
+    status="No errors"/>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

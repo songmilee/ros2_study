@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000868] (contact) JobQueued: {'identifier': 'contact', 'dependencies': OrderedDict([('contact', '/home/lsm/Project/ros2_study/5.custom/install/contact')])}
+[0.002077] (cpublisher) JobQueued: {'identifier': 'cpublisher', 'dependencies': OrderedDict([('contact', '/home/lsm/Project/ros2_study/5.custom/install/contact'), ('cpublisher', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher')])}
+[0.002522] (contact) JobStarted: {'identifier': 'contact'}
+[0.034217] (contact) JobEnded: {'identifier': 'contact', 'rc': 0}
+[0.036615] (cpublisher) JobStarted: {'identifier': 'cpublisher'}
+[0.062037] (cpublisher) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/lsm/Project/ros2_study/5.custom/build/cpublisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lsm'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib:/opt/ros/crystal/opt/yaml_cpp_vendor/lib:/opt/ros/crystal/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/crystal/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/lsm/Project/ros2_study/5.custom/cpublisher'), ('OSPL_URI', 'file:///opt/ros/crystal/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/lsm'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install:/opt/ros/crystal'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'crystal'), ('LOGNAME', 'lsm'), ('GTK_IM_MODULE', 'fcitx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'lsm'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/crystal/bin:/home/lsm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/lsm-laptop:@/tmp/.ICE-unix/1462,unix/lsm-laptop:/tmp/.ICE-unix/1462'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7d6770a_559a_4f8d_92c8_02300f159ef3'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/home/lsm/Project/ros2_study/5.custom/install/contact:/opt/ros/crystal'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'fcitx'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/lsm/Project/ros2_study/5.custom/build/cpublisher'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages:/opt/ros/crystal/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/home/lsm/Project/ros2_study/5.custom/install/contact')]), 'shell': False}
+[0.075497] (cpublisher) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl\n'}
+[0.075878] (cpublisher) StdoutLine: {'line': b'Parse Config file:/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl\n'}
+[0.076103] (cpublisher) StdoutLine: {'line': b'   Site: lsm-laptop\n'}
+[0.076301] (cpublisher) StdoutLine: {'line': b'   Build name: Linux-c++\n'}
+[0.078142] (cpublisher) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.079498] (cpublisher) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.079781] (cpublisher) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl\n'}
+[0.080213] (cpublisher) StdoutLine: {'line': b'Parse Config file:/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl\n'}
+[0.080531] (cpublisher) StdoutLine: {'line': b'Test project /home/lsm/Project/ros2_study/5.custom/build/cpublisher\n'}
+[0.080820] (cpublisher) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.081127] (cpublisher) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.081414] (cpublisher) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.081701] (cpublisher) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.081990] (cpublisher) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.082273] (cpublisher) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.082553] (cpublisher) StdoutLine: {'line': b'test 1\n'}
+[0.082866] (cpublisher) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.083161] (cpublisher) StdoutLine: {'line': b'\n'}
+[0.083448] (cpublisher) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_copyright/copyright.txt" "--command" "/opt/ros/crystal/bin/ament_copyright" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml"\n'}
+[0.083749] (cpublisher) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099106] (-) TimerEvent: {}
+[0.191631] (cpublisher) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':\n"}
+[0.192050] (cpublisher) StdoutLine: {'line': b'1:  - /opt/ros/crystal/bin/ament_copyright --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml\n'}
+[0.199164] (-) TimerEvent: {}
+[0.299718] (-) TimerEvent: {}
+[0.400262] (-) TimerEvent: {}
+[0.468577] (cpublisher) StdoutLine: {'line': b'1: publish_contact.cpp: could not find copyright notice\n'}
+[0.468931] (cpublisher) StdoutLine: {'line': b'1: 1 errors, checked 1 files\n'}
+[0.485841] (cpublisher) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.486202] (cpublisher) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml'\n"}
+[0.497569] (cpublisher) StdoutLine: {'line': b'1/6 Test #1: copyright ........................***Failed    0.42 sec\n'}
+[0.498027] (cpublisher) StdoutLine: {'line': b'test 2\n'}
+[0.498362] (cpublisher) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.498670] (cpublisher) StdoutLine: {'line': b'\n'}
+[0.498999] (cpublisher) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/crystal/bin/ament_cppcheck" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml"\n'}
+[0.499326] (cpublisher) StdoutLine: {'line': b'2: Test timeout computed to be: 120\n'}
+[0.500385] (-) TimerEvent: {}
+[0.581456] (cpublisher) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':\n"}
+[0.581830] (cpublisher) StdoutLine: {'line': b'2:  - /opt/ros/crystal/bin/ament_cppcheck --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml\n'}
+[0.600507] (-) TimerEvent: {}
+[0.700962] (-) TimerEvent: {}
+[0.801485] (-) TimerEvent: {}
+[0.858702] (cpublisher) StdoutLine: {'line': b'2: No errors\n'}
+[0.877830] (cpublisher) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.878221] (cpublisher) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml'\n"}
+[0.889917] (cpublisher) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.39 sec\n'}
+[0.890590] (cpublisher) StdoutLine: {'line': b'test 3\n'}
+[0.890905] (cpublisher) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[0.891184] (cpublisher) StdoutLine: {'line': b'\n'}
+[0.891470] (cpublisher) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/crystal/bin/ament_cpplint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml"\n'}
+[0.891777] (cpublisher) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[0.901589] (-) TimerEvent: {}
+[0.974525] (cpublisher) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':\n"}
+[0.974947] (cpublisher) StdoutLine: {'line': b'3:  - /opt/ros/crystal/bin/ament_cpplint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml\n'}
+[1.001718] (-) TimerEvent: {}
+[1.102134] (-) TimerEvent: {}
+[1.202556] (-) TimerEvent: {}
+[1.281673] (cpublisher) StdoutLine: {'line': b'3: /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[1.281998] (cpublisher) StdoutLine: {'line': b'3: /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:50:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]\n'}
+[1.282290] (cpublisher) StdoutLine: {'line': b"3: Category 'legal/copyright' errors found: 1\n"}
+[1.282866] (cpublisher) StdoutLine: {'line': b"3: Category 'whitespace/ending_newline' errors found: 1\n"}
+[1.283157] (cpublisher) StdoutLine: {'line': b'3: Total errors found: 2\n'}
+[1.283439] (cpublisher) StdoutLine: {'line': b"3: Not using '--root'\n"}
+[1.283659] (cpublisher) StdoutLine: {'line': b'3: \n'}
+[1.283861] (cpublisher) StdoutLine: {'line': b'3: Done processing /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp\n'}
+[1.284058] (cpublisher) StdoutLine: {'line': b'3: \n'}
+[1.299923] (cpublisher) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[1.300399] (cpublisher) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml'\n"}
+[1.302771] (-) TimerEvent: {}
+[1.312176] (cpublisher) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................***Failed    0.42 sec\n'}
+[1.312590] (cpublisher) StdoutLine: {'line': b'test 4\n'}
+[1.312956] (cpublisher) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[1.313270] (cpublisher) StdoutLine: {'line': b'\n'}
+[1.313618] (cpublisher) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/crystal/bin/ament_lint_cmake" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml"\n'}
+[1.313938] (cpublisher) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.396652] (cpublisher) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':\n"}
+[1.397051] (cpublisher) StdoutLine: {'line': b'4:  - /opt/ros/crystal/bin/ament_lint_cmake --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml\n'}
+[1.402790] (-) TimerEvent: {}
+[1.503280] (-) TimerEvent: {}
+[1.603749] (-) TimerEvent: {}
+[1.656198] (cpublisher) StdoutLine: {'line': b'4: \n'}
+[1.656512] (cpublisher) StdoutLine: {'line': b'4: No errors\n'}
+[1.673194] (cpublisher) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.673670] (cpublisher) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml'\n"}
+[1.684646] (cpublisher) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.37 sec\n'}
+[1.685021] (cpublisher) StdoutLine: {'line': b'test 5\n'}
+[1.685305] (cpublisher) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[1.685583] (cpublisher) StdoutLine: {'line': b'\n'}
+[1.685852] (cpublisher) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/crystal/bin/ament_uncrustify" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml"\n'}
+[1.686145] (cpublisher) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.703851] (-) TimerEvent: {}
+[1.768974] (cpublisher) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':\n"}
+[1.769383] (cpublisher) StdoutLine: {'line': b'5:  - /opt/ros/crystal/bin/ament_uncrustify --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml\n'}
+[1.803979] (-) TimerEvent: {}
+[1.904531] (-) TimerEvent: {}
+[2.005048] (-) TimerEvent: {}
+[2.041001] (cpublisher) StdoutLine: {'line': b"5: Code style divergence in file 'publish_contact.cpp':\n"}
+[2.041399] (cpublisher) StdoutLine: {'line': b'5: \n'}
+[2.041721] (cpublisher) StdoutLine: {'line': b'5: --- publish_contact.cpp\n'}
+[2.042026] (cpublisher) StdoutLine: {'line': b'5: +++ publish_contact.cpp.uncrustify\n'}
+[2.042325] (cpublisher) StdoutLine: {'line': b'5: @@ -50 +50 @@\n'}
+[2.042629] (cpublisher) StdoutLine: {'line': b'5: -}\n'}
+[2.042943] (cpublisher) StdoutLine: {'line': b'5: +}\n'}
+[2.043253] (cpublisher) StdoutLine: {'line': b'5: \n'}
+[2.043569] (cpublisher) StdoutLine: {'line': b'5: 1 files with code style divergence\n'}
+[2.059993] (cpublisher) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[2.060406] (cpublisher) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml'\n"}
+[2.071636] (cpublisher) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................***Failed    0.39 sec\n'}
+[2.072030] (cpublisher) StdoutLine: {'line': b'test 6\n'}
+[2.072335] (cpublisher) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[2.072626] (cpublisher) StdoutLine: {'line': b'\n'}
+[2.072896] (cpublisher) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/crystal/bin/ament_xmllint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml"\n'}
+[2.073197] (cpublisher) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[2.105082] (-) TimerEvent: {}
+[2.155946] (cpublisher) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':\n"}
+[2.156382] (cpublisher) StdoutLine: {'line': b'6:  - /opt/ros/crystal/bin/ament_xmllint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml\n'}
+[2.205215] (-) TimerEvent: {}
+[2.305756] (-) TimerEvent: {}
+[2.406283] (-) TimerEvent: {}
+[2.507223] (-) TimerEvent: {}
+[2.608756] (-) TimerEvent: {}
+[2.710484] (-) TimerEvent: {}
+[2.812403] (-) TimerEvent: {}
+[2.850489] (cpublisher) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[2.851891] (cpublisher) StdoutLine: {'line': b'6: \n'}
+[2.853026] (cpublisher) StdoutLine: {'line': b'6: No errors\n'}
+[2.891174] (cpublisher) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[2.891973] (cpublisher) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml'\n"}
+[2.903055] (cpublisher) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    0.83 sec\n'}
+[2.909517] (cpublisher) StdoutLine: {'line': b'\n'}
+[2.909923] (cpublisher) StdoutLine: {'line': b'50% tests passed, 3 tests failed out of 6\n'}
+[2.910241] (cpublisher) StdoutLine: {'line': b'\n'}
+[2.910541] (cpublisher) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.910875] (cpublisher) StdoutLine: {'line': b'copyright     =   0.42 sec*proc (1 test)\n'}
+[2.911177] (cpublisher) StdoutLine: {'line': b'cppcheck      =   0.39 sec*proc (1 test)\n'}
+[2.911446] (cpublisher) StdoutLine: {'line': b'cpplint       =   0.42 sec*proc (1 test)\n'}
+[2.911741] (cpublisher) StdoutLine: {'line': b'lint_cmake    =   0.37 sec*proc (1 test)\n'}
+[2.912031] (cpublisher) StdoutLine: {'line': b'linter        =   2.82 sec*proc (6 tests)\n'}
+[2.912315] (-) TimerEvent: {}
+[2.912539] (cpublisher) StdoutLine: {'line': b'uncrustify    =   0.39 sec*proc (1 test)\n'}
+[2.912854] (cpublisher) StdoutLine: {'line': b'xmllint       =   0.83 sec*proc (1 test)\n'}
+[2.913156] (cpublisher) StdoutLine: {'line': b'\n'}
+[2.913448] (cpublisher) StdoutLine: {'line': b'Total Test time (real) =   2.83 sec\n'}
+[2.913743] (cpublisher) StdoutLine: {'line': b'\n'}
+[2.914050] (cpublisher) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[2.914339] (cpublisher) StdoutLine: {'line': b'\t  1 - copyright (Failed)\n'}
+[2.914643] (cpublisher) StdoutLine: {'line': b'\t  3 - cpplint (Failed)\n'}
+[2.915003] (cpublisher) StdoutLine: {'line': b'\t  5 - uncrustify (Failed)\n'}
+[2.932925] (cpublisher) StderrLine: {'line': b'Errors while running CTest\n'}
+[2.935099] (cpublisher) CommandEnded: {'returncode': 8}
+[2.936731] (cpublisher) TestFailure: {'identifier': 'cpublisher'}
+[2.936867] (cpublisher) JobEnded: {'identifier': 'cpublisher', 'rc': 0}
+[2.937433] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+{
+  "package_name": "contact",
+  "non_idl_tuples": [
+    "/home/lsm/Project/ros2_study/5.custom/contact:msg/Contact.msg",
+    "/home/lsm/Project/ros2_study/5.custom/contact:srv/AddTwoFloats.srv"
+  ]
+}

@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_cpplint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml
+
+/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:50:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+Category 'legal/copyright' errors found: 1
+Category 'whitespace/ending_newline' errors found: 1
+Total errors found: 2
+Not using '--root'
+
+Done processing /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml'

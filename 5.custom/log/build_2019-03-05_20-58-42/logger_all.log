@@ -1,0 +1,126 @@
+[0.196s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6bc5e3d358>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6bc5e3d358>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6bc5e3d710>)
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lsm/Project/ros2_study/5.custom'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/build) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/build) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/build) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/contact) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lsm/Project/ros2_study/5.custom/contact' with type 'ros.ament_cmake' and name 'contact'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/cpublisher) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lsm/Project/ros2_study/5.custom/cpublisher' with type 'ros.ament_cmake' and name 'cpublisher'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/install) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/install) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/install) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/log) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/log) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lsm/Project/ros2_study/5.custom/log) ignored
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'contact' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lsm/Project/ros2_study/5.custom/build/contact', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lsm/Project/ros2_study/5.custom/install/contact', 'merge_install': False, 'path': '/home/lsm/Project/ros2_study/5.custom/contact', 'symlink_install': False, 'test_result_base': None}
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'cmake_args' from command line to 'None'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'cmake_target' from command line to 'None'
+[0.290s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'cpublisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.291s] DEBUG:colcon.colcon_core.verb:Building package 'cpublisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lsm/Project/ros2_study/5.custom/build/cpublisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lsm/Project/ros2_study/5.custom/install/cpublisher', 'merge_install': False, 'path': '/home/lsm/Project/ros2_study/5.custom/cpublisher', 'symlink_install': False, 'test_result_base': None}
+[0.293s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lsm/Project/ros2_study/5.custom/contact' with build type 'ament_cmake'
+[0.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lsm/Project/ros2_study/5.custom/contact'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.303s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/crystal'
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/contact': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact -- -j4 -l4
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/contact' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact -- -j4 -l4
+[0.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/contact': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact --target install
+[1.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(contact)
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/lsm/Project/ros2_study/5.custom/install/contact' for CMake module files
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/lsm/Project/ros2_study/5.custom/install/contact' for CMake config files
+[1.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('contact', 'cmake_prefix_path')
+[1.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/hook/cmake_prefix_path.ps1'
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/hook/cmake_prefix_path.sh'
+[1.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/contact' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/contact --target install
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/lsm/Project/ros2_study/5.custom/install/contact/lib'
+[1.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('contact', 'ld_library_path_lib')
+[1.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/hook/ld_library_path_lib.ps1'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/hook/ld_library_path_lib.sh'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/lsm/Project/ros2_study/5.custom/install/contact/bin'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/pkgconfig/contact.pc'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/lsm/Project/ros2_study/5.custom/install/contact/lib/python3.6/site-packages'
+[1.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('contact', 'pythonpath')
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/hook/pythonpath.ps1'
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/hook/pythonpath.sh'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/package.ps1'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/package.sh'
+[1.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/package.bash'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/package.zsh'
+[1.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lsm/Project/ros2_study/5.custom/install/contact/share/colcon-core/packages/contact)
+[1.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lsm/Project/ros2_study/5.custom/cpublisher' with build type 'ament_cmake'
+[1.742s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lsm/Project/ros2_study/5.custom/cpublisher'
+[1.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.744s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/crystal'
+[1.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': CMAKE_PREFIX_PATH=/home/lsm/Project/ros2_study/5.custom/install/contact:/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4
+[2.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '2': CMAKE_PREFIX_PATH=/home/lsm/Project/ros2_study/5.custom/install/contact:/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4
+[2.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.131s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.142s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.142s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.142s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.145s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lsm/Project/ros2_study/5.custom/install/local_setup.ps1'
+[2.150s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lsm/Project/ros2_study/5.custom/install/setup.ps1'
+[2.151s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lsm/Project/ros2_study/5.custom/install/local_setup.sh'
+[2.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lsm/Project/ros2_study/5.custom/install/setup.sh'
+[2.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lsm/Project/ros2_study/5.custom/install/local_setup.bash'
+[2.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lsm/Project/ros2_study/5.custom/install/setup.bash'
+[2.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lsm/Project/ros2_study/5.custom/install/local_setup.zsh'
+[2.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lsm/Project/ros2_study/5.custom/install/setup.zsh'

@@ -1,0 +1,32 @@
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake /home/lsm/Project/ros2_study/5.custom/cpublisher -DCMAKE_INSTALL_PREFIX=/home/lsm/Project/ros2_study/5.custom/install/cpublisher
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found contact: 0.0.0 (/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake)
+-- Found ament_lint_auto: 0.6.3 (/opt/ros/crystal/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lsm/Project/ros2_study/5.custom/build/cpublisher
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake /home/lsm/Project/ros2_study/5.custom/cpublisher -DCMAKE_INSTALL_PREFIX=/home/lsm/Project/ros2_study/5.custom/install/cpublisher
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher --target install
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/ament_index/resource_index/package_run_dependencies/cpublisher
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/ament_index/resource_index/parent_prefix_path/cpublisher
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/environment/ament_prefix_path.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/environment/path.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/local_setup.bash
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/local_setup.sh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/local_setup.zsh
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/ament_index/resource_index/packages/cpublisher
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/cmake/cpublisherConfig.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/cmake/cpublisherConfig-version.cmake
+-- Installing: /home/lsm/Project/ros2_study/5.custom/install/cpublisher/share/cpublisher/package.xml
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher --target install

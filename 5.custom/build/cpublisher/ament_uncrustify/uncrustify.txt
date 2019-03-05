@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_uncrustify --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml
+
+Code style divergence in file 'publish_contact.cpp':
+
+--- publish_contact.cpp
++++ publish_contact.cpp.uncrustify
+@@ -50 +50 @@
+-}
++}
+
+1 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml'

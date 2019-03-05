@@ -1,0 +1,6 @@
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found contact: 0.0.0 (/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/CMakeFiles/CMakeOutput.log".
+Makefile:600: recipe for target 'cmake_check_build_system' failed

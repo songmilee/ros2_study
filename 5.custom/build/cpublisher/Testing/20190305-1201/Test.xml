@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20190305-1201-Experimental"
+	Name="lsm-laptop"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.3.0"
+	OSName="Linux"
+	Hostname="lsm-laptop"
+	OSRelease="4.18.0-15-generic"
+	OSVersion="#16~18.04.1-Ubuntu SMP Thu Feb 7 14:06:04 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="78"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="7893"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2700.04"
+	>
+	<Testing>
+		<StartDateTime>Mar 05 21:02 KST</StartDateTime>
+		<StartTestTime>1551787374</StartTestTime>
+		<TestList>
+			<Test>./copyright</Test>
+			<Test>./cppcheck</Test>
+			<Test>./cpplint</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./uncrustify</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_copyright/copyright.txt" "--command" "/opt/ros/crystal/bin/ament_copyright" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.417645</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_copyright/copyright.txt" "--command" "/opt/ros/crystal/bin/ament_copyright" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_copyright --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml
+publish_contact.cpp: could not find copyright notice
+1 errors, checked 1 files
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>cppcheck</Name>
+			<Path>.</Path>
+			<FullName>./cppcheck</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/crystal/bin/ament_cppcheck" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.3918</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/crystal/bin/ament_cppcheck" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_cppcheck --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml
+No errors
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cppcheck</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>cpplint</Name>
+			<Path>.</Path>
+			<FullName>./cpplint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/crystal/bin/ament_cpplint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.421943</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/crystal/bin/ament_cpplint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_cpplint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml
+/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] &lt;Copyright Owner&gt;"  [legal/copyright] [5]
+/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:50:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+Category 'legal/copyright' errors found: 1
+Category 'whitespace/ending_newline' errors found: 1
+Total errors found: 2
+Not using '--root'
+
+Done processing /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cpplint</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/crystal/bin/ament_lint_cmake" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.37214</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/crystal/bin/ament_lint_cmake" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_lint_cmake --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml
+
+No errors
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/crystal/bin/ament_uncrustify" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.386483</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/crystal/bin/ament_uncrustify" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_uncrustify --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml
+Code style divergence in file 'publish_contact.cpp':
+
+--- publish_contact.cpp
++++ publish_contact.cpp.uncrustify
+@@ -50 +50 @@
+-}
++}
+
+1 files with code style divergence
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/crystal/bin/ament_xmllint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.831179</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/crystal/bin/ament_xmllint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+ - /opt/ros/crystal/bin/ament_xmllint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No errors
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Mar 05 21:02 KST</EndDateTime>
+		<EndTestTime>1551787376</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

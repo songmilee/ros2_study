@@ -1,0 +1,2 @@
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

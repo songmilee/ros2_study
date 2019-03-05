@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from contact/msg/Contact.msg
+
+
+module contact {
+  module msg {
+    module Contact_Constants {
+      const boolean FEMALE = TRUE;
+      const boolean MALE = FALSE;
+    };
+    struct Contact {
+      string first_name;
+
+      string last_name;
+
+      boolean gender;
+
+      uint8 age;
+
+      string address;
+    };
+  };
+};

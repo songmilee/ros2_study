@@ -1,0 +1,30 @@
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': CMAKE_PREFIX_PATH=/home/lsm/Project/ros2_study/5.custom/install/contact:/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.6.3 (/opt/ros/crystal/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.6.3 (/opt/ros/crystal/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.6.1 (/opt/ros/crystal/share/rmw_implementation_cmake/cmake)
+-- Found contact: 0.0.0 (/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lsm/Project/ros2_study/5.custom/build/cpublisher
+[35m[1mScanning dependencies of target cpublisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpublisher.dir/publish_contact.cpp.o[0m
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:35:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+   rclcpp::[01;31m[Ktimer[m[K::TimerBase::SharedPtr timer_;
+           [01;31m[K^~~~~[m[K
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:[m[K In constructor ‘[01m[KContactPublisher::ContactPublisher()[m[K’:
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope
+     [01;31m[Ktimer_[m[K = this->create_wall_timer(1s, publish_msg);
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:30:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktimer_t[m[K’
+     [01;36m[Ktimer_[m[K = this->create_wall_timer(1s, publish_msg);
+     [01;36m[K^~~~~~[m[K
+     [32m[Ktimer_t[m[K
+make[2]: *** [CMakeFiles/cpublisher.dir/publish_contact.cpp.o] Error 1
+CMakeFiles/cpublisher.dir/build.make:62: recipe for target 'CMakeFiles/cpublisher.dir/publish_contact.cpp.o' failed
+CMakeFiles/Makefile2:547: recipe for target 'CMakeFiles/cpublisher.dir/all' failed
+make[1]: *** [CMakeFiles/cpublisher.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '2': CMAKE_PREFIX_PATH=/home/lsm/Project/ros2_study/5.custom/install/contact:/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4

@@ -1,0 +1,15 @@
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': CMAKE_PREFIX_PATH=/home/lsm/Project/ros2_study/5.custom/install/contact:/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found contact: 0.0.0 (/home/lsm/Project/ros2_study/5.custom/install/contact/share/contact/cmake)
+CMake Error at /opt/ros/crystal/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:33 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:22 (ament_target_dependencies)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/CMakeFiles/CMakeOutput.log".
+Makefile:600: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '2': CMAKE_PREFIX_PATH=/home/lsm/Project/ros2_study/5.custom/install/contact:/home/lsm/Project/ros2_study/5.custom/install/cpublisher:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/5.custom/build/cpublisher -- -j4 -l4

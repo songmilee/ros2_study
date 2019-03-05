@@ -1,0 +1,25 @@
+{
+  "package_name": "contact",
+  "output_dir": "/home/lsm/Project/ros2_study/5.custom/build/contact/rosidl_generator_c/contact",
+  "template_dir": "/opt/ros/crystal/share/rosidl_generator_c/cmake/../resource",
+  "ros_interface_files": [
+    "/home/lsm/Project/ros2_study/5.custom/contact/msg/Contact.msg",
+    "/home/lsm/Project/ros2_study/5.custom/contact/srv/AddTwoFloats.srv",
+    "/home/lsm/Project/ros2_study/5.custom/build/contact/rosidl_cmake/srv/AddTwoFloats_Request.msg",
+    "/home/lsm/Project/ros2_study/5.custom/build/contact/rosidl_cmake/srv/AddTwoFloats_Response.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../../../lib/python3.6/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../resource/msg.h.em",
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/crystal/share/rosidl_generator_c/cmake/../resource/srv.h.em",
+    "/home/lsm/Project/ros2_study/5.custom/contact/msg/Contact.msg",
+    "/home/lsm/Project/ros2_study/5.custom/contact/srv/AddTwoFloats.srv",
+    "/home/lsm/Project/ros2_study/5.custom/build/contact/rosidl_cmake/srv/AddTwoFloats_Request.msg",
+    "/home/lsm/Project/ros2_study/5.custom/build/contact/rosidl_cmake/srv/AddTwoFloats_Response.msg"
+  ]
+}

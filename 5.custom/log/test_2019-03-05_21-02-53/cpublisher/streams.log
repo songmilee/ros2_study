@@ -1,0 +1,122 @@
+Invoking command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+UpdateCTestConfiguration  from :/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl
+Parse Config file:/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl
+   Site: lsm-laptop
+   Build name: Linux-c++
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+UpdateCTestConfiguration  from :/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl
+Parse Config file:/home/lsm/Project/ros2_study/5.custom/build/cpublisher/DartConfiguration.tcl
+Test project /home/lsm/Project/ros2_study/5.custom/build/cpublisher
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_copyright/copyright.txt" "--command" "/opt/ros/crystal/bin/ament_copyright" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+1:  - /opt/ros/crystal/bin/ament_copyright --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml
+1: publish_contact.cpp: could not find copyright notice
+1: 1 errors, checked 1 files
+1: -- run_test.py: return code 1
+1: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/copyright.xunit.xml'
+1/6 Test #1: copyright ........................***Failed    0.42 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/crystal/bin/ament_cppcheck" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml"
+2: Test timeout computed to be: 120
+2: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+2:  - /opt/ros/crystal/bin/ament_cppcheck --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml
+2: No errors
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cppcheck.xunit.xml'
+2/6 Test #2: cppcheck .........................   Passed    0.39 sec
+test 3
+    Start 3: cpplint
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/crystal/bin/ament_cpplint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml"
+3: Test timeout computed to be: 120
+3: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+3:  - /opt/ros/crystal/bin/ament_cpplint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml
+3: /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+3: /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp:50:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]
+3: Category 'legal/copyright' errors found: 1
+3: Category 'whitespace/ending_newline' errors found: 1
+3: Total errors found: 2
+3: Not using '--root'
+3: 
+3: Done processing /home/lsm/Project/ros2_study/5.custom/cpublisher/publish_contact.cpp
+3: 
+3: -- run_test.py: return code 1
+3: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/cpplint.xunit.xml'
+3/6 Test #3: cpplint ..........................***Failed    0.42 sec
+test 4
+    Start 4: lint_cmake
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/crystal/bin/ament_lint_cmake" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+4:  - /opt/ros/crystal/bin/ament_lint_cmake --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml
+4: 
+4: No errors
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/lint_cmake.xunit.xml'
+4/6 Test #4: lint_cmake .......................   Passed    0.37 sec
+test 5
+    Start 5: uncrustify
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/crystal/bin/ament_uncrustify" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+5:  - /opt/ros/crystal/bin/ament_uncrustify --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml
+5: Code style divergence in file 'publish_contact.cpp':
+5: 
+5: --- publish_contact.cpp
+5: +++ publish_contact.cpp.uncrustify
+5: @@ -50 +50 @@
+5: -}
+5: +}
+5: 
+5: 1 files with code style divergence
+5: -- run_test.py: return code 1
+5: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/uncrustify.xunit.xml'
+5/6 Test #5: uncrustify .......................***Failed    0.39 sec
+test 6
+    Start 6: xmllint
+
+6: Test command: /usr/bin/python3 "-u" "/opt/ros/crystal/share/ament_cmake_test/cmake/run_test.py" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml" "--package-name" "cpublisher" "--output-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/crystal/bin/ament_xmllint" "--xunit-file" "/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml"
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/lsm/Project/ros2_study/5.custom/cpublisher':
+6:  - /opt/ros/crystal/bin/ament_xmllint --xunit-file /home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml
+6: File 'package.xml' is valid
+6: 
+6: No errors
+6: -- run_test.py: return code 0
+6: -- run_test.py: verify result file '/home/lsm/Project/ros2_study/5.custom/build/cpublisher/test_results/cpublisher/xmllint.xunit.xml'
+6/6 Test #6: xmllint ..........................   Passed    0.83 sec
+
+50% tests passed, 3 tests failed out of 6
+
+Label Time Summary:
+copyright     =   0.42 sec*proc (1 test)
+cppcheck      =   0.39 sec*proc (1 test)
+cpplint       =   0.42 sec*proc (1 test)
+lint_cmake    =   0.37 sec*proc (1 test)
+linter        =   2.82 sec*proc (6 tests)
+uncrustify    =   0.39 sec*proc (1 test)
+xmllint       =   0.83 sec*proc (1 test)
+
+Total Test time (real) =   2.83 sec
+
+The following tests FAILED:
+	  1 - copyright (Failed)
+	  3 - cpplint (Failed)
+	  5 - uncrustify (Failed)
+Errors while running CTest
+Invoked command in '/home/lsm/Project/ros2_study/5.custom/build/cpublisher' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
