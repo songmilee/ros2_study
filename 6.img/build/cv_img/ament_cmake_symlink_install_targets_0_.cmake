@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lsm/Project/ros2_study/6.img/build/cv_img/cv_pub" "/home/lsm/Project/ros2_study/6.img/build/cv_img/cv_sub" "TARGETS" "cv_pub" "cv_sub" "DESTINATION" "lib/cv_img")

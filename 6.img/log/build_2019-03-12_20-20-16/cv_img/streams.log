@@ -1,0 +1,45 @@
+Invoking command in '/home/lsm/Project/ros2_study/6.img/build/cv_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake /home/lsm/Project/ros2_study/6.img/cv_img -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lsm/Project/ros2_study/6.img/install/cv_img
+-- Found ament_cmake: 0.6.0 (/opt/ros/crystal/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.6.3 (/opt/ros/crystal/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.6.3 (/opt/ros/crystal/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.6.1 (/opt/ros/crystal/share/rmw_implementation_cmake/cmake)
+-- Found sensor_msgs: 0.6.1 (/opt/ros/crystal/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.6.3 (/opt/ros/crystal/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lsm/Project/ros2_study/6.img/build/cv_img
+Invoked command in '/home/lsm/Project/ros2_study/6.img/build/cv_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake /home/lsm/Project/ros2_study/6.img/cv_img -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lsm/Project/ros2_study/6.img/install/cv_img
+Invoking command in '/home/lsm/Project/ros2_study/6.img/build/cv_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/6.img/build/cv_img -- -j4 -l4
+[ 50%] [32m[1mLinking CXX executable cv_pub[0m
+[ 50%] [32m[1mLinking CXX executable cv_sub[0m
+[ 75%] Built target cv_sub
+[100%] Built target cv_pub
+Invoked command in '/home/lsm/Project/ros2_study/6.img/build/cv_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/6.img/build/cv_img -- -j4 -l4
+Invoking command in '/home/lsm/Project/ros2_study/6.img/build/cv_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/6.img/build/cv_img --target install
+[ 50%] Built target cv_pub
+[100%] Built target cv_sub
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/lib/cv_img/cv_pub
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/lib/cv_img/cv_sub
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/ament_index/resource_index/package_run_dependencies/cv_img
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/ament_index/resource_index/parent_prefix_path/cv_img
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/environment/ament_prefix_path.sh
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/environment/path.sh
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/local_setup.bash
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/local_setup.sh
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/local_setup.zsh
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/ament_index/resource_index/packages/cv_img
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/cmake/cv_imgConfig.cmake
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/cmake/cv_imgConfig-version.cmake
+-- Symlinking: /home/lsm/Project/ros2_study/6.img/install/cv_img/share/cv_img/package.xml
+Invoked command in '/home/lsm/Project/ros2_study/6.img/build/cv_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/crystal /usr/bin/cmake --build /home/lsm/Project/ros2_study/6.img/build/cv_img --target install

@@ -1,0 +1,1 @@
+/home/lsm/Project/ros2_study/6.img/build/cv_img/ament_cmake_environment_hooks/local_setup.sh
